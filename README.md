@@ -1,2 +1,4 @@
 # SQL-project-on-superstore-database
 This database contains Sales details of transaction of a superstore.
+The database is in the zip file.
+The database has 5 tables, namely cust_dimen (containing details about customer and their respective locations), prod_dimen (containing product category and their subcategories), orders_dimen (with order no, date, and priority), shipping_dimen (with ship date, order and shipping mode), and market_fact (order-wise customer-wise marketwise order/quantity, sales value, discount profit and shipping cost details). Upon proper database design these tables will get information handy upon querying. These are having dimensions and has facts releated to it. using market_fact we can derive various insights which will aid in helping decisions regarding Product segment-wise sales and profitability, Shipping mode wise profitability etc.
